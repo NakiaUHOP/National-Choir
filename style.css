@@ -32,4 +32,27 @@
     width: 90%;
     max-width: none;
   }
+.btn.purple {
+  background-color: #6a0dad; /* rich purple */
+  color: #fff;
+}
+.btn.purple:hover {
+  background-color: #7e3fdc; /* lighter purple on hover */
+}
+
+.btn.royal {
+  background-color: #4169e1; /* royal blue */
+  color: #fff;
+}
+.btn.royal:hover {
+  background-color: #5a7ff2; /* lighter royal blue on hover */
+}
+
+.btn.burgundy {
+  background-color: #800020; /* deep burgundy */
+  color: #fff;
+}
+.btn.burgundy:hover {
+  background-color: #a52a2a; /* lighter burgundy on hover */
+}
 }
