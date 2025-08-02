@@ -16,9 +16,10 @@
   border-radius: 6px;
   transition: all 0.3s ease;
   box-shadow: 0 3px 6px rgba(0,0,0,0.2);
-  flex: 1 1 250px; /* allows stretching on larger screens */
+  flex: 1 1 250px;
   max-width: 300px;
   text-align: center;
+  color: #fff;
 }
 
 /* Mobile stacking */
@@ -32,27 +33,34 @@
     width: 90%;
     max-width: none;
   }
-.btn.purple {
-  background-color: #6a0dad; /* rich purple */
-  color: #fff;
-}
-.btn.purple:hover {
-  background-color: #7e3fdc; /* lighter purple on hover */
 }
 
-.btn.royal {
-  background-color: #4169e1; /* royal blue */
-  color: #fff;
+/* Color variants */
+.btn.blue {
+  background-color: #007BFF;
 }
-.btn.royal:hover {
-  background-color: #5a7ff2; /* lighter royal blue on hover */
+.btn.blue:hover {
+  background-color: #339CFF;
 }
 
-.btn.burgundy {
-  background-color: #800020; /* deep burgundy */
-  color: #fff;
+.btn.green {
+  background-color: #28a745;
 }
-.btn.burgundy:hover {
-  background-color: #a52a2a; /* lighter burgundy on hover */
+.btn.green:hover {
+  background-color: #45c163;
 }
+
+.btn.red {
+  background-color: #dc3545;
+}
+.btn.red:hover {
+  background-color: #e85c6a;
+}
+
+.btn.yellow {
+  background-color: #ffc107;
+  color: #000; /* better contrast on yellow */
+}
+.btn.yellow:hover {
+  background-color: #ffda4d;
 }
