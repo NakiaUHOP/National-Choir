@@ -36,32 +36,52 @@
   }
 }
 
-/* Color variants */
-.btn.blue {
-  background-color: #007BFF;
+/* Black */
+.btn.black {
+  background-color: #212121;
+  color: #fff;
 }
-.btn.blue:hover {
-  background-color: #339CFF;
-}
-
-.btn.green {
-  background-color: #28a745;
-}
-.btn.green:hover {
-  background-color: #45c163;
+.btn.black:hover {
+  background-color: #000000;
 }
 
-.btn.red {
-  background-color: #dc3545;
+/* White */
+.btn.white {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #ccc;
 }
-.btn.red:hover {
-  background-color: #e85c6a;
+.btn.white:hover {
+  background-color: #f5f5f5;
 }
 
-.btn.yellow {
-  background-color: #ffc107;
-  color: #000; /* better contrast on yellow */
+/* Gray */
+.btn.gray {
+  background-color: #9e9e9e;
+  color: #fff;
 }
-.btn.yellow:hover {
-  background-color: #ffda4d;
+.btn.gray:hover {
+  background-color: #bdbdbd;
+}
+
+/* Tan */
+.btn.tan {
+  background-color: #d2b48c;
+  color: #000;
+}
+.btn.tan:hover {
+  background-color: #e0c6a5;
+}
+
+/* Mobile stacking */
+@media (max-width: 600px) {
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 90%;
+    max-width: 400px;
+  }
 }
