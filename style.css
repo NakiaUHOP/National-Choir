@@ -20,6 +20,7 @@
   max-width: 300px;
   text-align: center;
   color: #fff;
+  margin: 6px 0; /* adds vertical spacing between stacked buttons */
 }
 
 /* Mobile stacking */
