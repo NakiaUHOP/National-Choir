@@ -33,6 +33,7 @@
   .btn {
     width: 90%;
     max-width: none;
+     margin: 10px 0;
   }
 }
 
@@ -83,5 +84,6 @@
   .btn {
     width: 90%;
     max-width: 400px;
+     margin: 10px 0;
   }
 }
